@@ -6,7 +6,7 @@ public class NilaiKelompok03 {
         int kelompokTertinggi = 0;
         float totalNilai; 
         float rataNilai;
-        double rataTertinggi = 0;
+        float rataTertinggi = 0;
 
         i = 1;
         while (i <= 6) {
@@ -29,6 +29,7 @@ public class NilaiKelompok03 {
             i++;
             
         }
+        System.out.println("");
         System.out.println("Kelompok dengan nilai tertinggi : ");
         System.out.println("Kelompok " + kelompokTertinggi + " dengan rata rata : " + rataTertinggi);
     }
